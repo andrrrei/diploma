@@ -1,0 +1,88 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "grounded-rag-ru-v2",
+  "dataset_size": 896459594,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Vikhrmodels/Grounded-RAG-RU-v2@7be9767db044c5b3f460557356ccd4cd8e69dfe1/data/train-00000-of-00002.parquet": {
+      "num_bytes": 77122756,
+      "checksum": null
+    },
+    "hf://datasets/Vikhrmodels/Grounded-RAG-RU-v2@7be9767db044c5b3f460557356ccd4cd8e69dfe1/data/train-00001-of-00002.parquet": {
+      "num_bytes": 94997531,
+      "checksum": null
+    },
+    "hf://datasets/Vikhrmodels/Grounded-RAG-RU-v2@7be9767db044c5b3f460557356ccd4cd8e69dfe1/data/test-00000-of-00001.parquet": {
+      "num_bytes": 483354,
+      "checksum": null
+    }
+  },
+  "download_size": 172603641,
+  "features": {
+    "cluster": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "conversation": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "docs_count": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "model": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1069063235,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 892709105,
+      "num_examples": 50010,
+      "shard_lengths": [
+        28005,
+        22005
+      ],
+      "dataset_name": "grounded-rag-ru-v2"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3750489,
+      "num_examples": 200,
+      "dataset_name": "grounded-rag-ru-v2"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "saiga_pref_selfplay_1_best_sft",
+  "dataset_size": 274875115,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/andrrrei/saiga_pref_selfplay_1_best_sft@8aa23c10e490adbc1bbebff24c3e801bfe32ce4d/data/train-00000-of-00001.parquet": {
+      "num_bytes": 108379771,
+      "checksum": null
+    }
+  },
+  "download_size": 108379771,
+  "features": {
+    "prompt": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "chosen": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "rejected": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "chosen_model": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "rejected_model": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sonnet_approved": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "is_bad_by_regex": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 383254886,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 274875115,
+      "num_examples": 30590,
+      "dataset_name": "saiga_pref_selfplay_1_best_sft"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

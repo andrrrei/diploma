@@ -1,0 +1,7 @@
+**/__pycache__
+evaluation/FLORES/results
+evaluation/LIBRA/results
+evaluation/LLMAAJ/results
+evaluation/MMLU/results
+**.arrow
+.DS_Store
